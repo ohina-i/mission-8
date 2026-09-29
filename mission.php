@@ -23,6 +23,7 @@ $engine = new GravityEngine();
 // 【指示】下の1行を各自のメソッド呼び出しに書き換えろ！
 // 担当A: $engine->spinFlywheel();
 // 担当B: $engine->stabilizeRotor();
+$engine->spinFlywheel(); // ← これは間違い、書き換えろ
 $engine->stabilizeRotor(); // ← これは間違い、書き換えろ
 // ==========================================
 
